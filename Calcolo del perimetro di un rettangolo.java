@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Esercizi {
+public class Calcolo del perimetro di un rettangolo {
     public static void main(String[] args){
 
         int base = 0;
