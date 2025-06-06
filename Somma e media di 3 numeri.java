@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Esercizi {
+public class Somma e media di 3 numeri{
     public static void main(String[] args) {
 
         double num1 = 0;
