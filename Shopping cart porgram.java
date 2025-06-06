@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Shopping cart porgram{
+public class Esercizi{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
@@ -8,6 +8,7 @@ public class Shopping cart porgram{
         double price;
         int counter;
         char currency = '€';
+        double total;
 
         System.out.print("cosa ti piacerebbe mangiare? :");
         food = scanner.nextLine();
@@ -18,7 +19,9 @@ public class Shopping cart porgram{
         System.out.print("quanti ne vuoi prendere? ");
         counter = scanner.nextInt();
 
-        System.out.println("hai comprato " + counter + " " + food + "/e" + "\ndevi pagare: " + price + currency);
+        total = price * counter;
+
+        System.out.println("hai comprato " + counter + " " + food + "/e" + "\ndevi pagare: " + total + currency);
     }
 
     
