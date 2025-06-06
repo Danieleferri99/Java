@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Esercizi{
+public class Convertitore da gradi Celsius a Fahrenheit{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
