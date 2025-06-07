@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Esercizi {
+public class Simple Login Simulation {
     public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
 
