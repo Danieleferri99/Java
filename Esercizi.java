@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Esercizi {
+public class Weather_Advisor{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
