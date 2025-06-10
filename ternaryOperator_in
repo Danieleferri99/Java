@@ -1,0 +1,11 @@
+public class ternaryOperator_in_ {
+    //Ternary operator è un prompt boolean che restituisce una delle due condizioni se è vero;
+    //Usa l’operatore ternario per decisioni semplici e brevi.
+    //Usa if/else per logica più complessa o multilivello
+    
+    //variable = (condition) ? ifTrue : ifFalse;
+
+    int score = 75; 
+    int score2 = (score % 2 == 0) ?  (score * 3) : (score * 4 - 1);
+    String passOrfail = (score >= 60) ? "pass" : "fail";
+}
