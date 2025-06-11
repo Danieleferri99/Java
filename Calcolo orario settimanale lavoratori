@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Calcolo orario settimanale lavoratori {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int oreDipendenti = 0;
+        int somma = 0;
+        int counter = 0;
+
+        System.out.print("numero dipendenti: ");
+        int numDipendenti = scanner.nextInt();
+
+        for (int i = 1; i <= numDipendenti; i++) {
+            System.out.printf("quante ore ha lavorato il dipendente %d? ", i);
+            oreDipendenti = scanner.nextInt();
+            if (oreDipendenti > 0) {
+                somma = somma + oreDipendenti;
+            }
+            counter++;
+
+        }
+        System.out.printf("la somma è di %d \n", somma);
+        System.out.printf("la media è di %d ", somma / numDipendenti);
+        scanner.close();
+    }
+}
